@@ -1,0 +1,17 @@
+body, html {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f77005;
+}
+
+.flex {
+  display: flex;
+}
+
+.card-list-container {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-evenly;
+  justify-content: center;
+  flex-flow: column;
+  align-items: center;
+}
