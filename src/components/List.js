@@ -16,7 +16,7 @@ class List extends Component {
       <div className='card-list-container'>
         {this.props.posts && this.props.posts.map((post) => {
           return (
-            <Card key={post.id} item={post} />
+            <Card key={post.id} item={post} expnad={false} />
           )
         })}
       </div>

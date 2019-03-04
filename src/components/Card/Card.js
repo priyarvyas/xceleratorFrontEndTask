@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import CardBody from './CardBody'
+import { CardBody } from './CardBody'
 import CardHeader from './CardHeader'
 import { withRouter } from 'react-router-dom'
 import './Card.css';

@@ -5,7 +5,8 @@ export function getBlogPostList() {
     return store.getState().posts;
 }
 
-export function updateItemCount(selectedPost) {
+export function updatePostData(selectedPost) {
+    console.log(selectedPost);
     if (selectedPost) {
         store.dispatch(updatePostAction(selectedPost));
     }
